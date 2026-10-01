@@ -1,0 +1,24 @@
+# Variáveis de ambiente (segredos)
+.env
+.env.*
+!.env.example
+
+# Binários gerados pelo go build
+/go-api
+/api
+*.exe
+*.test
+
+# Cobertura de testes
+*.out
+coverage.html
+
+# Cookie salvo pelo exemplo de curl do README
+cookies.txt
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
